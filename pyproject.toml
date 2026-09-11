@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello"
+version = "0.1.0"
+description = "A small command-line greeting project"
+requires-python = ">=3.9"
+
+[project.scripts]
+hello = "hello:main"
+
+[tool.setuptools]
+py-modules = ["hello"]
