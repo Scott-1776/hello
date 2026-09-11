@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug hello",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/hello.py",
+            "args": [
+                "Ada"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
